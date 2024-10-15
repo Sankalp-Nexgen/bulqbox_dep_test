@@ -16,36 +16,36 @@ const Users = () => {
                 <StatisticsWidget3
                     variant="warning"
                     avatar={avatar1}
-                    name="Chadengle"
-                    emailId="coderthemes@gmail.com"
-                    position="Admin"
+                    name="Rahul Sharma"
+                    emailId="rahul.sharma@example.com"
+                    position="Designation"
                 />
             </Col>
             <Col xl={3} md={6}>
                 <StatisticsWidget3
                     variant="secondary"
                     avatar={avatar2}
-                    name="Michael Zenaty"
-                    emailId="coderthemes@gmail.com"
-                    position="Support Lead"
+                    name="Ananya Singh"
+                    emailId="ananya.singh@example.com"
+                    position="Designation"
                 />
             </Col>
             <Col xl={3} md={6}>
                 <StatisticsWidget3
                     variant="success"
                     avatar={avatar3}
-                    name="Stillnotdavid"
-                    emailId="coderthemes@gmail.com"
-                    position="Designer"
+                    name="Keval Patil"
+                    emailId="Keval.patil@example.com"
+                    position="Designation"
                 />
             </Col>
             <Col xl={3} md={6}>
                 <StatisticsWidget3
                     variant="info"
                     avatar={avatar4}
-                    name="Tomaslau"
-                    emailId="coderthemes@gmail.com"
-                    position="Developer"
+                    name="Rohani Iyer"
+                    emailId="rohani.iyer@example.com"
+                    position="Designation"
                 />
             </Col>
         </Row>

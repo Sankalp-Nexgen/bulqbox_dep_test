@@ -10,10 +10,10 @@ import StatisticsChart from './StatisticsChart';
 import RevenueChart from './RevenueChart';
 import Users from './Users';
 import Inbox from './Inbox';
-import Projects from './Projects';
+import Orders from './Orders';
 
 // dummy data
-import { messages, projectDetails } from './data';
+import { messages, orderDetails } from './data';
 
 const DashBoard1 = () => {
     // set pagetitle
@@ -51,7 +51,7 @@ const DashBoard1 = () => {
                     <Inbox messages={messages} />
                 </Col>
                 <Col xl={8}>
-                    <Projects projectDetails={projectDetails} />
+                    <Orders orderDetails={orderDetails} />
                 </Col>
             </Row>
         </>

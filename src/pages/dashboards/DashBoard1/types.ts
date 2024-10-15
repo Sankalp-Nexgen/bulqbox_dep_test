@@ -6,12 +6,12 @@ export type Message = {
     time: string;
 };
 
-export type ProjectDetail = {
+export type OrderDetail = {
     id: number;
-    name: string;
-    startDate: string;
-    dueDate: string;
+    orderId: string;
+    orderDate: string;
+    deliveryDate: string;
+    time: string;
     status: string;
     variant: string;
-    clients: string;
 };

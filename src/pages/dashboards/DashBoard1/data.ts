@@ -1,5 +1,5 @@
 // types
-import { Message, ProjectDetail } from './types';
+import { Message, OrderDetail } from './types';
 
 // images
 import avatar1 from '../../../assets/images/users/user-1.jpg';
@@ -12,95 +12,98 @@ const messages: Message[] = [
     {
         id: 1,
         avatar: avatar1,
-        sender: 'Chadengle',
+        sender: 'Arjun',  
         text: "Hey! there I'm available...",
         time: '13:40 PM',
     },
     {
         id: 2,
         avatar: avatar2,
-        sender: 'Tomaslau',
+        sender: 'Aishwarya',  
         text: "I've finished it! See you so...",
         time: '13:34 PM',
     },
     {
         id: 3,
         avatar: avatar3,
-        sender: 'Stillnotdavid',
+        sender: 'Vikram',  
         text: 'This theme is awesome!',
         time: '13:17 PM',
     },
     {
         id: 4,
         avatar: avatar4,
-        sender: 'Kurafire',
+        sender: 'Rajesh',  
         text: 'Nice to meet you',
         time: '12:20 PM',
     },
     {
         id: 5,
         avatar: avatar5,
-        sender: 'Shahedk',
+        sender: 'Karan',  
         text: "Hey! there I'm available...",
         time: '10:15 PM',
     },
 ];
 
-const projectDetails: ProjectDetail[] = [
+
+
+const orderDetails: OrderDetail[] = [
     {
         id: 1,
-        name: 'Adminto Admin v1',
-        startDate: '01/01/2017',
-        dueDate: '26/04/2017',
-        status: 'Released',
-        variant: 'danger',
-        clients: 'Coderthemes',
+        orderId: 'ORD001',
+        orderDate: '01/01/2017',
+        deliveryDate: '26/04/2017',
+        time: '10:00 AM',
+        status: 'Delivered',
+        variant: 'success',
     },
     {
         id: 2,
-        name: 'Adminto Frontend v1',
-        startDate: '01/01/2017',
-        dueDate: '26/04/2017',
-        status: 'Released',
-        variant: 'success',
-        clients: 'Adminto admin',
+        orderId: 'ORD002',
+        orderDate: '02/01/2017',
+        deliveryDate: '26/04/2017',
+        time: '12:30 PM',
+        status: 'Pending',
+        variant: 'danger',
     },
     {
         id: 3,
-        name: 'Adminto Admin v1.1',
-        startDate: '01/05/2017',
-        dueDate: '10/05/2017',
-        status: 'Pending',
-        variant: 'pink',
-        clients: 'Coderthemes',
+        orderId: 'ORD003',
+        orderDate: '03/05/2017',
+        deliveryDate: '10/05/2017',
+        time: '03:00 PM',
+        status: 'In Progress',
+        variant: 'purple',
     },
     {
         id: 4,
-        name: 'Adminto Frontend v1.1',
-        startDate: '01/01/2017',
-        dueDate: '31/05/2017',
-        status: 'Work in Progress',
-        variant: 'purple',
-        clients: 'Adminto admin',
+        orderId: 'ORD004',
+        orderDate: '05/01/2017',
+        deliveryDate: '31/05/2017',
+        time: '09:15 AM',
+        status: 'Delivered',
+        variant: 'success',
     },
     {
         id: 5,
-        name: 'Adminto Admin v1.3',
-        startDate: '01/01/2017',
-        dueDate: '31/05/2017',
-        status: 'Coming soon',
-        variant: 'warning',
-        clients: 'Coderthemes',
+        orderId: 'ORD005',
+        orderDate: '10/01/2017',
+        deliveryDate: '31/05/2017',
+        time: '11:45 AM',
+        status: 'In Progress',
+        variant: 'purple',
     },
     {
         id: 6,
-        name: 'Adminto Admin v1.3',
-        startDate: '01/01/2017',
-        dueDate: '31/05/2017',
-        status: 'Coming soon',
-        variant: 'blue',
-        clients: 'Adminto admin',
+        orderId: 'ORD006',
+        orderDate: '12/01/2017',
+        deliveryDate: '31/05/2017',
+        time: '02:30 PM',
+        status: 'Pending',
+        variant: 'danger',
     },
 ];
 
-export { messages, projectDetails };
+
+export { messages, orderDetails };
